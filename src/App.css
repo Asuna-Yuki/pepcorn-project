@@ -71,6 +71,11 @@ li {
   border: 1px solid;
   transition: all 0.3s ease 0s;
   cursor: pointer;
+  box-shadow: 0px 3px 10px -4px rgba(122, 122, 122, 0.34);
+}
+
+.btn:hover {
+  box-shadow: 0px 5px 10px -4px rgba(122, 122, 122, 0.84);
 }
 
 .btn-outline {
@@ -83,7 +88,6 @@ li {
   color: var(--white);
   background-color: var(--accent-color);
   transform: translateY(-1.5px);
-  box-shadow: 0px 0px 1px 0px;
 }
 
 .btn-danger {
@@ -102,6 +106,11 @@ li {
   color: var(--accent-color);
   background-color: transparent;
   border: none;
+  box-shadow: none;
+}
+.btn-follow:hover,
+.btn-share:hover {
+  box-shadow: none;
 }
 
 .btn-muted {
@@ -205,6 +214,7 @@ nav #logo {
 nav .image-container {
   overflow: hidden;
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 nav ul {
@@ -370,12 +380,19 @@ img {
   margin: auto;
 }
 
+.video-card-footer section i {
+  color: var(--black);
+}
+
 .video-card-footer section:nth-child(2) {
   display: flex;
   justify-content: space-between;
 }
 .video-card-footer section:nth-child(2) i {
   padding: 0 0.2em;
+}
+.video-card-footer section:nth-child(3) i {
+  margin-right: 6px;
 }
 
 /* deal card */
@@ -419,7 +436,6 @@ img {
   font-size: 3.6rem;
   font-weight: 600;
   color: var(--accent-color);
-  padding: 5px 0;
 }
 
 .campaign-card section h2 {
@@ -433,7 +449,6 @@ img {
   font-size: 1.4rem;
   font-weight: 400;
   color: var(--black);
-  padding: 5px 0;
 }
 
 .campaign-card section p {
@@ -713,6 +728,34 @@ img {
 
 .reply p:nth-child(4) {
   margin-left: 50px;
+}
+
+/* welcome card */
+.welcome-card {
+  position: absolute;
+  right: 200px;
+  top: 60px;
+  width: 200px;
+  padding-top: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 3px 10px -4px rgba(122, 122, 122, 0.592);
+}
+.welcome-card p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+.welcome-card a {
+  color: var(--black);
+}
+.welcome-card a:hover {
+  color: var(--accent-color);
+}
+.hidden {
+  visibility: hidden;
 }
 
 @media screen and (max-width: 1200px) {
