@@ -85,8 +85,7 @@ export const Home = () => {
               name='pitch'
               onClick={(e) => onClick(e)}
             >
-              {" "}
-              Pitch
+              <i class='fa-light fa-memo-pad'></i> Pitch
             </button>
             <button
               id='btn-2'

@@ -182,6 +182,18 @@ li {
   background-color: #ea4c89;
 }
 
+.btn-twitter,
+.btn-facebook,
+.btn-chrome {
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.btn-twitter:hover,
+.btn-facebook:hover,
+.btn-chrome:hover {
+  transform: translateY(-2px);
+}
+
 .btn-social a {
   color: var(--white);
 }
@@ -602,6 +614,10 @@ img {
   margin-bottom: 20px;
 }
 
+.card-stats strong {
+  color: rgb(41, 208, 41);
+}
+
 .card-stats section div:nth-child(1) {
   margin-right: auto;
 }
@@ -756,6 +772,26 @@ img {
 }
 .hidden {
   visibility: hidden;
+}
+/* icons */
+
+.fa-hand-point-up,
+.fa-chart-pie {
+  color: var(--white);
+}
+
+.video-card-footer section .fa-facebook {
+  color: rgb(39, 58, 144);
+}
+.video-card-footer section .fa-youtube {
+  color: rgb(241, 27, 27);
+}
+.video-card-footer section .fa-instgram {
+  color: rgb(255, 93, 236);
+}
+.video-card-footer section .fa-location-dot,
+.video-card-footer section .fa-chrome {
+  color: inherit;
 }
 
 @media screen and (max-width: 1200px) {

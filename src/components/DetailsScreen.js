@@ -39,9 +39,9 @@ export const DetailsScreen = () => {
               <i className='fa-regular fa-hand-point-up fa-xl' />
             </div>
           </section>
-          <span>
+          <strong>
             <i className='fa fa-arrow-up' /> Ends in
-          </span>
+          </strong>
           <span> 0 days</span>
         </div>
         <div className='card card-stats'>
@@ -55,9 +55,9 @@ export const DetailsScreen = () => {
             </div>
           </section>
 
-          <span>
+          <strong>
             <i className='fa fa-arrow-up' /> 0%
-          </span>
+          </strong>
           <span> Raised So far</span>
         </div>
       </div>
