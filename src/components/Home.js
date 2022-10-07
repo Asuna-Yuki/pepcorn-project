@@ -13,7 +13,7 @@ export const Home = () => {
   const [screen, setScreen] = useState(1);
 
   const onClick = (e) => {
-    if (e.target.name == "details") {
+    if (e.target.name === "details") {
       let btn_1 = document.getElementById("btn-1");
       let btn_3 = document.getElementById("btn-3");
       let btn_4 = document.getElementById("btn-4");
@@ -22,7 +22,7 @@ export const Home = () => {
       btn_4.classList.remove("selected");
       e.target.classList.add("selected");
       setScreen(2);
-    } else if (e.target.name == "pitch") {
+    } else if (e.target.name === "pitch") {
       let btn_2 = document.getElementById("btn-2");
       let btn_3 = document.getElementById("btn-3");
       let btn_4 = document.getElementById("btn-4");
@@ -31,7 +31,7 @@ export const Home = () => {
       btn_4.classList.remove("selected");
       e.target.classList.add("selected");
       setScreen(1);
-    } else if (e.target.name == "updates") {
+    } else if (e.target.name === "updates") {
       let btn_1 = document.getElementById("btn-1");
       let btn_2 = document.getElementById("btn-2");
       let btn_4 = document.getElementById("btn-4");
@@ -40,7 +40,7 @@ export const Home = () => {
       btn_4.classList.remove("selected");
       e.target.classList.add("selected");
       setScreen(3);
-    } else if (e.target.name == "comments") {
+    } else if (e.target.name === "comments") {
       let btn_1 = document.getElementById("btn-1");
       let btn_2 = document.getElementById("btn-2");
       let btn_3 = document.getElementById("btn-3");
@@ -75,7 +75,7 @@ export const Home = () => {
       <HeadCard />
       <div className='container'>
         <section className='container-main'>
-          <a href='#'>Unable to view video ? Click here</a>
+          <a href='#!'>Unable to view video ? Click here</a>
           <VideoCard />
           <br />
           <div className='button-selector'>

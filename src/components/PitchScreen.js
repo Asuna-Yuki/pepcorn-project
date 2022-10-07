@@ -37,11 +37,17 @@ export const PitchScreen = () => {
         <hr />
         <h2>Traction</h2>
         <div className='image-container'>
-          <img src='https://images.unlayer.com/projects/15608/1651352968445-10.PNG' />
+          <img
+            alt='pitch'
+            src='https://images.unlayer.com/projects/15608/1651352968445-10.PNG'
+          />
         </div>
         <hr />
         <h2>Smarter Way To Rent</h2>
-        <img src='https://images.unlayer.com/projects/15608/1651352942115-6.png' />
+        <img
+          alt='pitch'
+          src='https://images.unlayer.com/projects/15608/1651352942115-6.png'
+        />
         <hr />
         <h2>Customers Want Low Prices</h2>
         <p>
@@ -54,7 +60,10 @@ export const PitchScreen = () => {
           have a first-mover advantage and dominate the market in the coming
           future.
         </p>
-        <img src='https://images.unlayer.com/projects/15608/1651352925215-3.PNG' />
+        <img
+          alt='pitch'
+          src='https://images.unlayer.com/projects/15608/1651352925215-3.PNG'
+        />
         <hr />
         <h2>Single KYC</h2>
         <p>
@@ -69,7 +78,10 @@ export const PitchScreen = () => {
           Being an aggregator Letzrent offers more options than category
           leaders.
         </p>
-        <img src='https://images.unlayer.com/projects/15608/1651352918059-2.png' />
+        <img
+          alt='pitch'
+          src='https://images.unlayer.com/projects/15608/1651352918059-2.png'
+        />
         <hr />
         <h2>Why Renting?</h2>
         <ol type='1'>
@@ -86,30 +98,48 @@ export const PitchScreen = () => {
             down payment, maintenance, insurance etc.
           </li>
         </ol>
-        <img src='https://images.unlayer.com/projects/15608/1651352954073-8.png' />
+        <img
+          alt='pitch'
+          src='https://images.unlayer.com/projects/15608/1651352954073-8.png'
+        />
         <hr />
         <h2>Market Size</h2>
-        <img src='https://images.unlayer.com/projects/15608/1651352961142-9.png' />
+        <img
+          alt='pitch'
+          src='https://images.unlayer.com/projects/15608/1651352961142-9.png'
+        />
 
         <hr />
 
         <h2>Competitors</h2>
-        <img src='https://images.unlayer.com/projects/15608/1651352937596-5.PNG' />
+        <img
+          alt='pitch'
+          src='https://images.unlayer.com/projects/15608/1651352937596-5.PNG'
+        />
 
         <hr />
 
         <h2>Feedback: People love us</h2>
-        <img src='https://images.unlayer.com/projects/15608/1651352929580-4.PNG' />
+        <img
+          alt='pitch'
+          src='https://images.unlayer.com/projects/15608/1651352929580-4.PNG'
+        />
 
         <hr />
 
         <h2>Future and growth</h2>
-        <img src='https://images.unlayer.com/projects/15608/1651352949305-7.png' />
+        <img
+          alt='pitch'
+          src='https://images.unlayer.com/projects/15608/1651352949305-7.png'
+        />
 
         <hr />
 
         <h2>Core Team</h2>
-        <img src='https://images.unlayer.com/projects/15608/1651352986615-11.png' />
+        <img
+          alt='pitch'
+          src='https://images.unlayer.com/projects/15608/1651352986615-11.png'
+        />
 
         <hr />
 

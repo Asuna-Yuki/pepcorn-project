@@ -17,7 +17,7 @@ export const CommentCard = (props) => {
       <section>
         <button className='btn btn-outline btn-reply'>reply</button>
       </section>
-      {props.reply != undefined ? (
+      {props.reply !== undefined ? (
         <div className='reply'>
           <hr />
           <p>Replies (1) Found</p>

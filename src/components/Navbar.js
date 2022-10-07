@@ -7,7 +7,7 @@ export const Navbar = () => {
         <div id='logo'>-Dashboard</div>
         <ul>
           <li className='image-container'>
-            <img src='image/dealer_reg.svg' alt='image' />
+            <img src='image/dealer_reg.svg' alt='logo' />
           </li>
         </ul>
       </nav>
